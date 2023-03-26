@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Spectral';
-  src: url(../fonts/Spectral-Bold.ttf) format(truetype);
+  src: url(../fonts/Spectral-Bold.ttf) format('truetype');
   font-weight: 700;
   font-style: normal;
 }
@@ -122,4 +122,151 @@ nav {
 }
 
 .about-content-link {
+}
+
+.modal {
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  box-sizing: border-box;
+  height: 20px;
+  padding: 10px;
+  border: 5px solid red;
+}
+
+.about-content-link {
+  box-sizing: border-box;
+  border: 1px solid #1a1424;
+  border-radius: 20px;
+  width: 145px;
+  height: 40px;
+  padding: 10px 20px 11px 20px;
+  margin-left: 305px;
+}
+
+.about-content-arrow {
+  width: 10px;
+  height: 10px;
+  vertical-align: middle;
+}
+
+.cards-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 43px;
+  margin-bottom: 50px;
+}
+
+.cards-header h3 {
+  margin: 0;
+  padding: 0;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  width: 257px;
+  height: 492px;
+  background: #ffffff;
+  border: 1px solid #dddada;
+  border-radius: 4px;
+  position: relative;
+}
+
+.card button {
+  background: #4ea842;
+  border-radius: 22.5px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 66px;
+  padding-bottom: 48px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-footer-item {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 1px;
+  color: #312c3a;
+  margin-top: 8.5px;
+  margin-bottom: 8.5px;
+}
+
+.nav-footer-item:first-child {
+  margin-top: 0;
+}
+
+.footer-content1 {
+  margin-top: -15px;
+}
+.social-list {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  margin-top: 36px;
+}
+.social-list-item {
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 1px solid #312c3a;
+  width: 42px;
+  height: 42px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 9px;
+}
+
+.social-list-item:first-child {
+  margin-left: 0;
+}
+
+.social-list-item:last-child {
+  margin-right: 0;
+}
+
+.footer-content3 {
+  display: flex;
+}
+
+.footer-content3 img {
+  color: #312c3a;
+  width: 33px;
+  height: 35px;
+  margin-top: 5px;
+  margin-right: 16px;
+}
+
+.footer-content-tel p {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 29px;
+  color: #312c3a;
 }
